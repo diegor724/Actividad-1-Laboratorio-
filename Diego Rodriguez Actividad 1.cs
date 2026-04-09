@@ -2,7 +2,7 @@
 string input;
 bool valido;
 
-// CARGA DE DATOS
+
 for (int i = 0; i < 5; i++)
 {
     valido = false;
@@ -30,7 +30,7 @@ for (int i = 0; i < 5; i++)
     }
 }
 
-// PROCESAMIENTO
+
 int total = 0;
 int max = laboratorios[0];
 int min = laboratorios[0];
@@ -50,7 +50,7 @@ for (int i = 0; i < 5; i++)
     }
 }
 
-// RESULTADOS
+
 Console.WriteLine("Total de alumnos: " + total);
 Console.WriteLine("Mayor cantidad de alumnos: " + max);
 Console.WriteLine("Menor cantidad de alumnos: " + min);
